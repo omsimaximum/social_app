@@ -7,7 +7,7 @@ import MobileNavbar from './MobileNavbar';
 async function Navbar() {
 	const user = await currentUser();
 
-	if (user) await syncUser(); //
+	if (user) await syncUser();
 
 	return (
 		<nav className='bg-background/95 supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 w-full border-b backdrop-blur'>

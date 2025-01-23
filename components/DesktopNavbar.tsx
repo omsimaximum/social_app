@@ -7,7 +7,6 @@ import { Button } from './ui/button';
 
 async function DesktopNavbar() {
 	const user = await currentUser();
-	console.log('user: ', user);
 	return (
 		<div className='hidden items-center space-x-4 md:flex'>
 			<ModeToggle />
